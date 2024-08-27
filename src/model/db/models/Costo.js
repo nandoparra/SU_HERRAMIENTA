@@ -60,7 +60,7 @@ module.exports = (sequelize, DataTypes)=>{
     };
     let config= {
         tableName: 'costos',
-        timeStamps: false
+        timestamps: false
 
     };
 

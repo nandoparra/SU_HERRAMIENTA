@@ -76,7 +76,7 @@ module.exports = (sequelize, DataTypes)=>{
     };
     let config= {
         tableName: 'ordenesservicio',
-        timeStamps: true
+        timestamps: true
 
     };
 

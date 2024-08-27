@@ -6,5 +6,11 @@
 </head>
 <body>
     <h1>HERRAMIENTAS</h1>
+    <ul>
+        <% herramientas.forEach(function(herramienta) { %>
+            <li><%= herramienta.nombre %> - <%= herramienta.marca %></li>
+        <% }); %>
+    </ul>
+
 </body>
 </html>

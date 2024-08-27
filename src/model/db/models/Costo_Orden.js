@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes)=>{
     };
     let config= {
         tableName: 'costos_ordenes',
-        timeStamps: true
+        timestamps: true
 
     };
 

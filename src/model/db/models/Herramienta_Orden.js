@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes)=>{
     };
     let config= {
         tableName: 'herramientas_ordenes',
-        timeStamps: false
+        timestamps: false
 
     };
 

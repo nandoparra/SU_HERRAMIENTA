@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden de servicio</title>
+</head>
+<body>
+    <form  action="/ordenesservicio" method="get" enctype="multipart/form-data">
+        <h2 >Crear Orden de servicio</h2>
+        
+        <div >
+            <label for="name" class="label-form">Nombre</label>
+            <input id="name" name="name" class="in-nombre form-input" type="text"  placeholder="Bajo Eléctrico"  />
+        </div>
+        <div >
+            <label for="brand" class="label-form">Marca</label>
+            <select class="select-brand" id="brand" name="brand"  >
+                <option value="" disabled>--Elige--</option>
+                <option value="1">Makita</option>
+                <option value="2">Dewalt</option>
+                <option value="3">Bosch</option>
+                <option value="4">Black And Decker</option>
+                <option value="5">Dremel</option>
+                <option value="6">Milwaukee</option>
+                <option value="7">Metabo</option>
+                <option value="8">Generica</option>
+                <option value="9">Skil</option>
+                <option value="10">Hilti</option>
+                <option value="11">Rioby</option>
+                
+                
+            </select>
+            
+        </div>
+</body>
+</html>

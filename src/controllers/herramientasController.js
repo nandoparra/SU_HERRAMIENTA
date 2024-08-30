@@ -4,7 +4,10 @@ module.exports = {
     db.Herramientas.findAll(
        )
     .then((herramientas)=>res.render('herramientas', {herramientas} ))
-    .catch((error)=>{res.send(error)})
+    .catch((error)=>{
+        console.log(error);
+        
+        res.send('no se pudo conectar a la base de datos')})
 
     }
 }

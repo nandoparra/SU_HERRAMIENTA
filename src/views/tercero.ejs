@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tercero</title>
+</head>
+<body>
+    <form  action="/tercero/store" method="POST">
+        <h2 >Crear Tercero</h2>
+       
+        <div >
+            <label for="tipo_id" >Tipo de identificacion</label>
+            <select  name="tipo_id"  >
+                <option value="" disabled>--Elige--</option>
+                <option value="1">Cedula</option>
+                <option value="2">Nit</option>
+            </select>
+        </div>
+         
+        <div >
+            <label for="identificacion" >Identificacion</label>
+            <input  name="identificacion"  type="text"  placeholder="Numero de identificacion"  />
+        </div>
+        <div >
+            <label for="nombre" >Nombre</label>
+            <input  name="nombre"  type="text"  placeholder="Nombre"  />
+        </div>
+        <div >
+            <label for="razon_social" >Razon social</label>
+            <input  name="razon_social"  type="text"  placeholder="Razon social"  />
+        </div>
+        <div >
+            <label for="telefono" >Telefono</label>
+            <input name="telefono"  type="text"  placeholder="Telefono"  />
+        </div>
+        <div >
+            <label for="direccion">direccion</label>
+            <input  name="direccion"  type="text"  placeholder="Direccion"  />
+        </div>
+        <div >
+            <label for="contacto" >contacto</label>
+            <input  name="contacto"  type="text"  placeholder="Contacto"  />
+        </div>
+        <div >
+            <label for="tel_contacto" >Telefono Contacto</label>
+            <input  name="tel_contacto"  type="text"  placeholder="tel_contacto"  />
+        </div>
+        <div >
+            <label for="usuario" >Usuario</label>
+            <input  name="usuario"  type="text"  placeholder="Usuario"  />
+        </div>
+        <div >
+            <label for="rol" >Rol</label>
+            <select  name="rol"  >
+                <option value="" disabled>--Elige--</option>
+                <option value="1">Cliente</option>
+                <option value="2">Tecnico</option>
+                <option value="3">Administrador</option>
+            </select>
+        </div>
+        <button type="submit" class="seguir">AGREGAR TERCERO</button>
+    </form>
+
+
+</body>
+</html>
